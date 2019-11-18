@@ -3,7 +3,16 @@
     margin:0;
 }
 
-#container{
+#welcome-section {
+
+    text-align: center;
+    font-size: 50px;
+    background-image: linear-gradient(grey,black);
+    color: white;
+    margin: 0;
+}
+
+#navbar{
     display:flex;
     flex-direction: row;
     justify-content: flex-end;
