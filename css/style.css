@@ -24,14 +24,45 @@ h1{
 
 h4{
     font-size: 30px;
-    color: lightcoral;
+    color: #BE3144;
     font-style:italic;
     font-weight: 100; 
 }
 
+h2{
+    text-align: center;
+    /* text-decoration: underline; */
+    color:white;
+    font-size: 45px;
+    /* border-bottom: 2px solid white;
+    padding: 15px;
+    width: 700px; */
+    /* margin-left: 200px; */
+}
+
+.show{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.abox{
+    border-bottom: 2px solid white;
+    padding: 15px;
+}
+
+.container{
+    background-color: #45567D;
+    padding-top: 80px;
+}
+
 #projects{
-    height:150vh;
-    background-color: darkcyan;
+    /* height:150vh; */
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -53,7 +84,6 @@ h4{
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
-    padding: 10px;
     font-size: 23px;
 }
 
@@ -71,7 +101,7 @@ h4{
     flex-direction: row;
     justify-content: flex-end;
     position:fixed; 
-    background-color: maroon;
+    background-color: #BE3144;
     color: white;
     height:80px;
     align-items: center;
@@ -88,7 +118,6 @@ li{
     text-decoration: none;
     outline:none;
     font-size: 23px;
-
 }
 
 .item:hover,
@@ -125,7 +154,7 @@ text-decoration: none;
  
 
 .link{
-    background-color: darkred;
+    background-color: #303841;
     height:500px;
     display:flex;
     justify-content: center;
@@ -135,5 +164,13 @@ text-decoration: none;
     font-size: 80px;
 }
 
-
+footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: 5px solid #BE3144;
+    background-color: #303841;
+    color:white;
+    padding: 40px;
+}
 
