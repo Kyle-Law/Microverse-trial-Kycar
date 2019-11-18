@@ -7,10 +7,10 @@
 
     text-align: center;
     font-size: 50px;
-    background-image: linear-gradient(grey,black);
+    background-image: linear-gradient(to bottom right, grey, black);
     color: white;
     margin: 0;
-    height:1000px;
+    height:100vh;
 }
 
 #projects{
@@ -22,7 +22,7 @@
     display:flex;
     flex-direction: row;
     justify-content: flex-end;
-    /* position:fixed; */
+    position:fixed; 
     background-color: maroon;
     color: white;
     height:80px;
@@ -90,3 +90,4 @@ color: blue;
 .project-tile{
     border:5px solid red;
 }
+
