@@ -10,6 +10,12 @@
     background-image: linear-gradient(grey,black);
     color: white;
     margin: 0;
+    height:1000px;
+}
+
+#projects{
+    height:1000px;
+    background-color: darkcyan;
 }
 
 #navbar{
@@ -25,15 +31,62 @@
 
 li{
     list-style-type: none;
+    text-decoration: none;
 }
 
 .item{
     margin:10px 50px;
     text-decoration: none;
+    outline:none;
+    font-size: 23px;
 
 }
 
 .item:hover{
     background-color: darkblue;
     color:white;
+    text-decoration: none;
+}
+
+.item:active{
+    color:white;
+}
+
+a:link {
+color: red;
+text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+color: white;
+text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+color: white;
+text-decoration: none;
+}
+
+/* selected link */
+a:active {
+color: blue;
+} 
+
+.link{
+    background-color: darkred;
+    height:500px;
+}
+
+#projects{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding:40px;
+    grid-gap:40px;
+}
+
+.project-tile{
+    border:5px solid red;
 }
