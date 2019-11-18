@@ -40,6 +40,14 @@ h2{
     /* margin-left: 200px; */
 }
 
+h5{
+    font-style: italic;
+    font-weight: 100;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
 .show{
     background-color: #303841; /* Green */
     border: none;
@@ -165,14 +173,31 @@ text-decoration: none;
 .link{
     background-color: #303841;
     height:500px;
+    /* text-align: center; */
     display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 10px;
-    font-size: 80px;
 }
 
+.link-btn{
+    margin:50px;
+}
+
+
+#profile-link {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    font-size: 23px;
+}
+
+#profile-link:hover {
+    top: 10px;
+}
+
+  
 footer{
     display:flex;
     flex-direction: row;
